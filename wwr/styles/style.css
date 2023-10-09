@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Skranji&display=swap'); 
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,14 +8,18 @@ nav a{
     color:#335C67;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{background-color: #E09F3E;
 }
 .home-title{
-    color:#E09F3E
+    color:#E09F3E;
+    font-size: 3em;
+    margin-top: 10px;
 }
 #hero-msg h1{
     text-align: center;
+    
 }
 #hero-msg h4{
     text-align: center;
@@ -25,6 +31,9 @@ nav a:hover{background-color: #E09F3E;
 main section{
     text-align: center;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .logo{
     width: 75px;
 }
@@ -34,18 +43,28 @@ main section{
 #background{
     height: 725px;
     background-color:#E09F3E ;
+    
 }
 body{
     background-color: #335C67;
+    font-family: Montserrat, Skranji, verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin:0
 }
 header{
     background-color: #FFF3B0;
 }
 
-.book,.join {background-color: white;
+.book,.join {
+    background-color: white;
     color:black;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding:15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: white;
@@ -53,16 +72,25 @@ header{
 }
 .msg{
     background-color: #fff3b0;
+    line-height: 1.5em;
+    padding:35px
+}
+h2{
+    margin:0
 }
 .msg h2{
     color:#335C67
 }
 .msg p{
-    color:#9E2A2B
+    color:#9E2A2B;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color:#FFF3B0 ;
-    color: #335C67
+    color: #335C67;
+    padding:25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:#E09F3E;
@@ -75,13 +103,27 @@ footer a:hover{
     background-color:#E09F3E ;
 }
 .icon{
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 footer p a:hover{
     text-decoration: underline;
 }
+footer .social img{padding-top: 15px;
 
-
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+.card-img{
+    border:10px solid #E09F3E;
+}
+main section img{
+    box-sizing: border-box;
+}
+.mountains{
+    margin:100px 0 200px 0;
+}
 
 
 
