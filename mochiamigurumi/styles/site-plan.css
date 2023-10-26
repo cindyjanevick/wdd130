@@ -7,11 +7,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #83ccc0   ;
+  --primary-color: #a5c061  ;
   --secondary-color: #d65841 ;
   --accent1-color: #efb86e;
-  --accent2-color: #a5c061;
-  --accent3-color: #061752;
+  --accent2-color: #061752;
+  --accent3-color: #83ccc0;
   --accent4-color: white;
 
   /* change the values below to your chosen font(s) */
