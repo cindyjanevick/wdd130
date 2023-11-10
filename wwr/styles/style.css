@@ -211,13 +211,14 @@ main section img{
 }
 #banner-msg{
     position:absolute; 
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background: rgba(255, 255, 255, 0.7);
     padding: 20px;
     font-size: 40px;
+    white-space: nowrap;
 }
   
 .faq-grid {
