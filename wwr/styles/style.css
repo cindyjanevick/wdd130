@@ -220,7 +220,8 @@ main section img{
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;*/
-    width:100%
+    width:100%;
+    text-align: center;
 }    
 
 .faq-grid {
