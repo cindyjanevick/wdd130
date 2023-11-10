@@ -220,10 +220,6 @@ main section img{
     font-size: 40px;
 }
   
-
-   
-  
-
 .faq-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
