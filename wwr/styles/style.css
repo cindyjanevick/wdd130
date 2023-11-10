@@ -210,8 +210,8 @@ main section img{
     width:100%
 }
 #banner-msg{
-    position:fixed; 
-    top: 30%;
+    position:absolute; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
