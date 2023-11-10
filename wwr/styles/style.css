@@ -210,13 +210,14 @@ main section img{
     width:100%
 }
 #banner-msg{
-    position: absolute;
-    top: 50%;
+    position:fixed; 
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background: rgba(255, 255, 255, 0.7);
-    padding: 10px;
+    padding: 20px;
+    font-size: 40px;
 }
   
 
