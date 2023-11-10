@@ -217,11 +217,12 @@ main section img{
     z-index: 1;
     background: rgba(255, 255, 255, 0.7); 
     padding: 10px;
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;*/
     width:100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center-align the text vertically */
+    align-items: center; /* Center-align the text vertically */
 }    
 
 .faq-grid {
