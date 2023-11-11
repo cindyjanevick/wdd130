@@ -1,0 +1,57 @@
+/* ... (unchanged styles) */
+
+#sub-pages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sub-page {
+    position: relative;
+}
+
+.sub-page img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.sub-page:hover .overlay {
+    display: block;
+}
+
+#banner {
+    text-align: center;
+    position: relative;
+}
+
+#banner img {
+    width: 100%; /* Make the image cover the entire banner */
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-content {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff; /* Text color for overlapping text */
+}
+
+#banner h1, p {
+    position: relative;
+    z-index: 2;
+}
