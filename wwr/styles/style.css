@@ -294,7 +294,7 @@ form {
   ul {
     list-style: none;
     padding: 0px;
-    margin: 50;
+    margin: 0px;
   }
   
   form li + li {
