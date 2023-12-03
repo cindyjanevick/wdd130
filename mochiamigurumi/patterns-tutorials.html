@@ -3,89 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/personal-site.css">
     <title>Mochi Amigurumis</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div id="logo">
-                <img src="images/mochi-logo.png" alt="Mochi Amigurumis Logo">
+    <div id="mochi-content">
+        <header>
+            <a id="logo_mochi" href="index.html">
+                <img class ="logo" src="images/mochi-logo.png" alt="Mochi Amigurumis Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="patterns-tutorials.html">Patterns & Tutorials</a>
+                <a href="gift-ideas.html">Gift Ideas</a>
+                <a href="site-plan.html">Site Plan</a>
+                <a href="#contact-us">Contact Us</a>
+            </nav>
+        </header>
+        <main class="pattern-grid">
+            <section id="pattern-msg">
+                <h1 class="pattern-title"> Patterns and Tutorials</h1>
+                <div>
+                    <h2>Learning the Basics</h2>
+                    <p>Lessons and materials guide you through the art of crochet, covering everything from fundamental skills to advanced methods.</p>    
+                </div>
+                
+            </section>
+            <div class="basic">
+                <section class="learn-card">
+                    <img class="learn-img" src="images/tutorial3.jpg" alt="a woman holding an amigurumi doll">
+                    <a class = "link" href="#">Learn crochet</a>
+                </section>
+                <section class="stich-card">
+                    <img class="stich-img" src="images/tutorial4opt.jpg" alt="someone crocheting">
+            
+                    <a class = "link" href="#">Stich Guide</a>
+                </section>
+                <section class="resources-card">
+                    <img class="resources-img" src="images/tutorial18.jpeg" alt="crochet hooks and yarn">
+            
+                    <a class = "link" href="#">Resources and tools</a>
+                </section>
+                
             </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="patterns-tutorials.html">Patterns & Tutorials</a></li>
-                <li><a href="gift-ideas.html">Gift Ideas</a></li>
-                <li><a href="site-plan.html">Site Plan</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="pattern-grid">
-        <section id="pattern-msg">
-            <h1 class="pattern-title"> Patterns and Tutorials</h1>
-            <h2>Learning the Basics</h2>
-            <p>Lessons and materials guide you through the art of crochet, covering everything from fundamental skills to advanced methods.</p>
-        </section>
-        <section class="learn-card">
-            <img class="learn-img" src="images/tutorial3.jpg" alt="a woman holding an amigurumi doll">
-            <a class = "link" href="#">Learn crochet</a>
-        </section>
-        <section class="stich-card">
-            <img class="stich-img" src="images/tutorial4opt.jpg" alt="someone crocheting">
+            <div>
+                <section id="pattern-msg">
+                    <h2>Free Amigurumi Patterns</h2>
+                    <p>Easy to follow free basic amigurumi crochet patterns to impress your family and friends.</p>
+                </section>
+            </div>
+            <div class="amipattern">
+                
+                <section class="bear-card">
+                    <img class="bear-img" src="images/teddybear.jpeg" alt="a woman holding an amigurumi doll">
             
-            <a class = "link" href="#">Stich Guide</a>
-        </section>
-        <section class="resources-card">
-            <img class="resources-img" src="images/tutorial18.jpeg" alt="crochet hooks and yarn">
+                    <a class = "link" href="#">Teddy Bear</a>
+                </section>
+                <section class="bee-card">
+                    <img class="bee-img" src="images/Optimized-amigurumis2.jpg" alt="different crochet bees">
+                    <a class= "link" href="#">Bummble bee</a>
+                </section>
+                <section class="turtle-card">
+                    <img class="turtle-img" src="images/turtle.jpeg" alt="someone crocheting next to  finished products and yarn">
             
-            <a class = "link" href="#">Resources and tools</a>
-        </section>
+                    <a class= "link" href="#">Kawaii Turtle</a>
+                </section>
+            </div>
+
+            <div id="pattern-msg">
+                <span id="pattern-content">Virtual Shop: You can find here some premium patterns for amigurumis or crochet delights</span>
+                <a id="button-box" href="#">Shop Premium Patterns</a>
+            </div>
+            </section>
+            
+        </main>
         
-        </section>
-        <section id="pattern-msg">
-            <h2>Free Amigurumi Patterns</h2>
-            <p>Easy to follow free basic amigurumi crochet patterns to impress your family and friends.</p>
-        </section>
-        <section class="bear-card">
-            <img class="bear-img" src="images/teddybear.jpeg" alt="a woman holding an amigurumi doll">
-            
-            <a class = "link" href="#">Teddy Bear</a>
-        </section>
-        <section class="bee-card">
-            <img class="bee-img" src="images/Optimized-amigurumis2.jpg" alt="different crochet bees">
-            <a class= "link" href="#">Bummble bee</a>
-        </section>
-        <section class="turtle-card">
-            <img class="turtle-img" src="images/turtle.jpeg" alt="someone crocheting next to  finished products and yarn">
-            
-            <a class= "link" href="#">Kawaii Turtle</a>
-        </section>
-        <section id="pattern-msg">
-            <p>Virtual Shop: You can find here some premium patterns for amigurumis or crochet delights.</p>
-        </section>
-        <section class="premium-card">
-            <div class="button-box">
-                <a class="shop" href="#">Shop Premium Patterns</a>
-            </div> 
-           
-        </section>
-        
-    </main>
     
 
-    <footer>
-        <p>&copy; 2023 Mochi Amigurumis. Cindy Vick</p>
-        <div id="social-media">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
-        </div>
-        
-        <div id="footer-links">
-            <a href="#contact-us">Contact Us</a>
-            <a href="site-plan.html">Site Plan</a>
-        </div>
-    </footer>
+        <footer>
+            <p>&copy; 2023 Mochi Amigurumis. Cindy Vick</p>
+            <p><a href="#contact-us">Contact Us</a></p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            
+                  
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
