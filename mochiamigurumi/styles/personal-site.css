@@ -358,3 +358,7 @@ p{
 #button-box:hover {
     background-color: #061752;
 }
+
+#button-box:active {
+    transform: scale(0.95); /* Adjust the scale factor as needed */
+}
